@@ -1,0 +1,76 @@
+{
+	"fileName": "id_1603103752226_101_moveControls",
+	"fileType": "change",
+	"changeType": "moveControls",
+	"moduleName": "",
+	"reference": "customer.ztrai.jhr.adaptation.template.training1",
+	"packageName": "$TMP",
+	"content": {
+		"movedElements": [{
+			"selector": {
+				"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--customer.ztrai.jhr.adaptation.template.training1.someID",
+				"idIsLocal": false
+			},
+			"sourceIndex": 5,
+			"targetIndex": 4
+		}],
+		"source": {
+			"selector": {
+				"aggregation": "content",
+				"type": "sap.m.OverflowToolbar",
+				"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--template::ListReport::TableToolbar",
+				"idIsLocal": false
+			}
+		},
+		"target": {
+			"selector": {
+				"aggregation": "content",
+				"type": "sap.m.OverflowToolbar",
+				"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--template::ListReport::TableToolbar",
+				"idIsLocal": false
+			}
+		}
+	},
+	"selector": {
+		"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--template::ListReport::TableToolbar",
+		"idIsLocal": false
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/mdm.cmd.supplier.ops1/appVariants/customer.ztrai.jhr.adaptation.template.training1/changes/",
+	"projectId": "customer.ztrai.jhr.adaptation.template.training1",
+	"creation": "2020-10-19T10:35:54.960Z",
+	"originalLanguage": "DE",
+	"conditions": {},
+	"context": "",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.71.22",
+		"sourceChangeFileName": "",
+		"compositeCommand": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {
+		"source": {
+			"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--template::ListReport::TableToolbar",
+			"idIsLocal": false
+		},
+		"target": {
+			"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--template::ListReport::TableToolbar",
+			"idIsLocal": false
+		},
+		"movedElements": [{
+			"id": "mdm.cmd.supplier.ops1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_SupplierFs--customer.ztrai.jhr.adaptation.template.training1.someID",
+			"idIsLocal": false
+		}]
+	},
+	"validAppVersions": {
+		"creation": "6.0.2",
+		"from": "6.0.2"
+	},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}
